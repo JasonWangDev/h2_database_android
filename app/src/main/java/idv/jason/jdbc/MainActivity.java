@@ -17,6 +17,10 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+使用 JDBC 連線
+另有 ODBC 可參考
+ */
 public class MainActivity extends AppCompatActivity {
 
     private List<Connect> connectList = new ArrayList<>();
